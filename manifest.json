@@ -3,12 +3,14 @@
     "name": "LT Ad Blocker",
     "version": "1.11", 
     "description": "Adblocker that doesn't get detected",
-    "icons": {
+    "icons": 
+    {
         "64": "icon64.png",
         "128": "icon128.png",
         "256": "icon256.png"
     },
-    "background": {
+    "background": 
+    {
         "scripts": ["blockedsites.js", "LTadblock.js"]
     },
     "permissions": ["webRequest", "webRequestBlocking", "http://*/", "https://*/"]
